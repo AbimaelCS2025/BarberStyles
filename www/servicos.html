@@ -1,0 +1,65 @@
+ <div data-name="vendas" class="page">
+ 	<!-- Top Navbar -->
+ 	<div id="NavBarTopoHome" class="navbar no-shadow tema-primario">
+ 		<div class="navbar-inner">
+ 			<div class="left">
+ 				<a class="link" href="/home/" >
+ 					<i class="mdi mdi-arrow-left"></i>
+ 				</a>
+ 			</div>
+ 			<div class="title" id="titleApp" style="font-size:15px">Lista de Serviços</div>
+ 		</div>
+ 	</div>
+
+
+ 	<div class="subnavbar" style="background-color: #fbfdfbfa; color:#000; font-size:13px">  		
+ 		<div class="row" style="width:100%;" align="center">
+ 			<div class="col-50" >
+ 				<div class="row" style=" margin-left:30px">
+ 					<div class="col-10">
+ 						<i class="mdi mdi-calendar-range"></i>
+ 					</div>
+ 					<div class="col-90">
+ 						<input type="date" id="dataInicial" onchange="filtro('', '/servicos/')" />
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-50" >
+ 				<div class="row">
+ 					<div class="col-10">
+ 						<i class="mdi mdi-calendar-range"></i>
+ 					</div>
+ 					<div class="col-90">
+ 						<input type="date" id="dataFinal" onchange="filtro('', '/servicos/')" />
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div> 		
+ 	</div> 
+
+
+
+ 	<div class="page-content">
+
+ 		<div class="block-strong">
+ 			<div class="row">
+ 				<button class="button col-30" onclick="filtro('', '/servicos/')" style="font-size: 11px">Todos</button>
+ 				<button class="button col-40" onclick="filtro('Não', '/servicos/')" style="font-size: 11px">Pendentes</button>
+ 				<button class="button col-30 button-round" onclick="filtro('Sim', '/servicos/')" style="font-size: 11px">Pagos</button>
+ 			</div>
+ 		</div>
+
+ 		<div class="list" style="margin-top: -5px">
+ 			<ul id="lista">
+
+ 			</ul>
+ 		</div>
+
+ 		<div class="fab fab-right-bottom color-orange">
+ 			<a href="/cad_servicos/">
+ 				<i class="icon f7-icons if-not-md" style="font-size:25px">+</i>
+ 			</a>
+
+ 		</div>
+
+ 	</div>

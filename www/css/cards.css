@@ -1,0 +1,55 @@
+.home{
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+
+.card-home {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 10px;  
+  width: 100%;
+  transition: all 0.3s ease-out;
+  margin-bottom: 10px;
+}
+
+
+.card-home:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+ 
+.card-home p {
+  color: #a3a5ae;
+  font-size: 12px;
+  margin:2px;
+}
+
+.card-home h3{
+	margin:px;
+	font-size: 12px;
+}
+
+.valor-home{
+	font-size: 14px;
+	margin-top: 8px;
+}
+ 
+.image-home {
+  float: right;
+  max-width: 35px;
+  max-height: 35px;
+}
+
+
+.home .blue {
+  border-left: 7px solid #050b13d8;
+}
+ 
+.home .green {
+  border-left: 7px solid #010f02;
+}
+ 
+.home .red {
+  border-left: 7px solid #130102;
+}

@@ -1,0 +1,48 @@
+ <div data-name="vendas" class="page">
+ 	<!-- Top Navbar -->
+ 	<div id="NavBarTopoHome" class="navbar no-shadow tema-primario">
+ 		<div class="navbar-inner">
+ 			<div class="left">
+ 				<a class="link" href="/home/" >
+ 					<i class="mdi mdi-arrow-left"></i>
+ 				</a>
+ 			</div>
+ 			<div class="title" id="titleApp" style="font-size:15px">Minha Agenda</div>
+ 		</div>
+ 	</div>
+
+
+ 	<div class="subnavbar" style="background-color: #fbfdfbfa; color:#000; font-size:13px">  		
+ 		<div class="row" style="width:100%;">
+ 			<div class="col-50" >
+ 				<div class="row" style=" margin-left:30px">
+ 					<div class="col-10">
+ 						<i class="mdi mdi-calendar-range"></i>
+ 					</div>
+ 					<div class="col-90">
+ 						<input type="date" id="dataInicial" onchange="filtro('', '/agenda/')" />
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 		</div> 		
+ 	</div> 
+
+
+
+ 	<div class="page-content"> 		
+
+ 		<div class="list" style="margin-top: 5px">
+ 			<ul id="lista">
+
+ 			</ul>
+ 		</div>
+
+ 		<div class="fab fab-right-bottom color-orange">
+ 			<a href="#" onclick="redirecionarPag('/cad_agenda/')">
+ 				<i class="icon f7-icons if-not-md" style="font-size:25px">+</i>
+ 			</a>
+
+ 		</div>
+
+ 	</div>

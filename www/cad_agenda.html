@@ -1,0 +1,93 @@
+<div data-name="vendas" class="page">
+	<!-- Top Navbar -->
+	<div id="NavBarTopoHome" class="navbar no-shadow tema-primario">
+		<div class="navbar-inner">
+			<div class="left">
+				<a class="link" href="/agenda/" >
+					<i class="mdi mdi-arrow-left"></i>
+				</a>
+			</div>
+			<div class="title" id="titleApp" style="font-size:15px"><span id="titulo_pag">Novo Agendamento</span></div>
+		</div>
+	</div>
+
+	<div class="page-content">
+		<div class="block">
+			<form >
+				<div class="list no-hairlines-md">
+					<ul>
+
+						<li class="item-content item-input">
+							<div class="item-inner">
+								<div class="item-title item-label">Clientes</div>
+								<div class="item-input-wrap input-dropdown-wrap">
+									<select name="cliente" id="cliente" style="font-size:12px" onchange="">
+
+									</select>
+								</div>
+							</div>
+						</li>
+
+						<div class="row">
+							<div class="col-50">
+								<li class="item-content item-input">
+									<div class="item-inner">
+										<div class="item-title item-label">Serviço</div>
+										<div class="item-input-wrap input-dropdown-wrap">
+											<select name="servico" id="servico" style="font-size:12px">
+
+											</select>
+										</div>
+									</div>
+								</li>
+							</div>
+
+
+							<div class="col-50">
+								<li class="item-content item-input">
+									<div class="item-inner">
+										<div class="item-title item-label">Data</div>
+										<div class="item-input-wrap">
+											<input style="font-size:12px" type="date" name="data" id="data-agd" onchange="mudarData()"/>
+										</div>
+									</div>
+
+								</li>
+							</div>
+
+						</div>
+
+
+
+						<li class="item-content item-input">
+							<div class="item-inner" id="listar-horarios">
+								fdsfdsfs
+							</div>
+						</li>
+
+						<li class="item-content item-input">
+									<div class="item-inner">
+										<div class="item-title item-label">Observações</div>
+										<div class="item-input-wrap">
+											<input style="font-size:12px" type="text" name="obs" id="obs" placeholder="" />
+										</div>
+									</div>
+
+								</li>
+
+
+
+					</ul>
+				</div>
+
+				<input type="hidden" name="id_funcionario" id="id_funcionario">
+				
+				<button type="submit" class="button button-fill primario" id="btn-salvar">Salvar</button>
+
+			</form>
+		</div>
+	</div>
+
+</div>
+
+

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+
+/*---------------------------------------------*/
+.input100 {
+	outline: none;
+	border: none;
+}
+
+
+.input100:focus::-webkit-input-placeholder { color:transparent; }
+.input100:focus:-moz-placeholder { color:transparent; }
+.input100:focus::-moz-placeholder { color:transparent; }
+.input100:focus:-ms-input-placeholder { color:transparent; }
+
+
+.input100::-webkit-input-placeholder { color: #fff;}
+.input100:-moz-placeholder { color: #fff;}
+.input100::-moz-placeholder { color: #fff;}
+.input100:-ms-input-placeholder { color: #fff;}
+
+
+
+/*---------------------------------------------*/
+.login100-form-btn {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.login100-form-btn:hover {
+	cursor: pointer;
+}
+
+
