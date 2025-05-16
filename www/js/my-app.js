@@ -2,7 +2,7 @@
 document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 
 //url para as apis
-var url = 'http://192.168.1.010/barbearia/';
+var url = 'http://github.com/AbimaelCS2025/BarberStyles';
 var url_api = url + 'api/';
 var url_img = url + 'img/';
 
