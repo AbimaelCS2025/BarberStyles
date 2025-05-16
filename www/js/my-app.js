@@ -2,7 +2,7 @@
 document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 
 //url para as apis
-var url = 'http://192.168.1.100/barbearia/';
+var url = 'http://192.168.1.101/barbearia/';
 var url_api = url + 'api/';
 var url_img = url + 'img/';
 
